@@ -1,0 +1,73 @@
+body
+{
+    background-color: #000000; /* kolor tła */
+    color: lightgray; /*kolor tekstu*/
+    font-size: 28px; /*rozmiar czcionki*/
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+#pojemnik /*odwołanie do iva o id pojemnik*/
+{
+    width: 900px; /*szerokość*/
+    margin-left: auto; /*wyśrodkowanie*/
+    margin-right: auto; /*wyśrodkowanie*/
+}
+
+#plansza /*selektor*/
+{
+    width: 900px;
+    margin-top: 50px; /*margines z góry */
+    margin-bottom: 50px; /*margines z dołu*/
+    text-align: center; /*wyśrodkowanie tekstu*/
+    font-size: 48px;
+    min-height: 60px; /*minimalna wysokość*/
+}
+
+#szubienica
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px; /*ustawienie na sztywno wysokości, w celu pozbycia się wrażenia znikania przy przeładowaniu js*/
+}
+
+#alfabet
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px; /*ustawienie na sztywno wysokości, w celu pozbycia się wrażenia znikania przy przeładowaniu js*/
+}
+
+.litera /*odwołanie do klasy*/
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px; /*przestrzeń wokół elementu*/
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer; /*łapka po najechaniu*/
+    border-radius: 15px; /*zaokrąglenie krawędzi*/
+}
+
+.litera:hover /*akcja po najechaniu */
+{
+    background-color: #2222;
+    color: white;
+    border: 3px solid white;
+}
+
+.reset
+{
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover
+{
+    color:white;
+}
